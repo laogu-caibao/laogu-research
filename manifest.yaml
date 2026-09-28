@@ -1,0 +1,5 @@
+slug: laogu-research
+display_name: 研报精读
+description: 研报精读：输入研报全文/链接/标题或公司名，提炼核心逻辑、评级目标价、关键假设与风险，并对比其他券商观点找分歧点，输出中文精读摘要。
+version: 1.0.0
+author: 老谷拆财报
