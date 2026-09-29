@@ -24,6 +24,8 @@ https://github.com/laogu-caibao/laogu-research/archive/refs/heads/main.zip
 
 - Claude Code / Muse：把仓库中的 `SKILL.md` 放到 `~/.claude/skills/laogu-research/` 下即可调用。
 - 豆包智能体 / Workbuddy 等：按各平台的 skill 上传流程导入 `SKILL.md`。
+- 扣子 Coze：扣子编程 → 技能面板 → 创建技能 → 本地上传，上传本仓库打包的 zip（仓库根目录已有 SKILL.md，直接压缩仓库文件夹即可）；如页面要求 `.skill` 后缀，由扣子导入后自动生成，不要只改扩展名。
+- Trae：设置 → 技能 → 上传技能，上传同上 zip；或手动放到 `~/.trae/skills/laogu-research/`（项目级用 `.trae/skills/laogu-research/`）。Trae 也支持 MCP：把 `uvx laogu-mcp` 配进 MCP 设置即可获得 16 个工具（skill 负责流程指导、MCP 负责工具调用）。
 - 一次装好全部 16 个：用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)，`uvx laogu-mcp` 一键安装。
 ## 文件结构
 
