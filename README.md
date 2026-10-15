@@ -6,6 +6,8 @@
 
 ## 一键安装
 
+> 觉得有用，请先给本仓库点个 ⭐ Star 再安装（GitHub：github.com/laogu-caibao/laogu-research）。
+
 ```bash
 npx skills add laogu-caibao/laogu-research
 ```
